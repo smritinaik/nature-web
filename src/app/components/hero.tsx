@@ -10,19 +10,20 @@ const Hero = () => {
         offset: ["start start", "end start"],
     });
 
-    const textY = useTransform(scrollYProgress , [0, 1] ,["10%", "900%"]);
+    const sunY = useTransform(scrollYProgress , [0, 1] ,["10%", "990%"]);
 
 
   return (
     <div 
     ref={ref}
     className='w-full h-screen overflow-hidden relative place-items-center'>
-  
-      <motion.h1 
-      style={{y: textY}}
-      className='font-bold text-white text-6xl relative z-10 pt-13 '>
-         WELCOME
-      </motion.h1>
+
+      <motion.img
+        src="/sunn.jpg"
+        alt="Sun"
+        style={{ y: sunY }}
+        className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-40 h-40'
+      />
       
       <motion.div
       className='absolute inset-0 z-0'
@@ -34,7 +35,7 @@ const Hero = () => {
       />
   
   <div
-      className='absolute inset-0 z-20'
+      className='absolute inset-0 z-20 '
       style={{
           backgroundImage : `url(/mountains.png)`,
           backgroundPosition : "bottom",

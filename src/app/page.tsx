@@ -1,12 +1,14 @@
 "use client"
 import Hero from "./components/hero";
+import Waves from "./components/waves";
 
 export default function Home() {
   return (
     
     <>
     <Hero/>
-    <div className="w-full  text-white p-6 space-y-4">
+    
+    {/* <div className="w-full  text-white p-6 space-y-4">
           <div className="flex flex-col gap-15 max-w-4xl mx-auto mc-10">
             <h3 className='text-center mt-20 md:mt-0 text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-900'>Parallax Web Design</h3>
           </div>
@@ -18,7 +20,16 @@ export default function Home() {
             This project effectively demonstrates how to build an engaging high-performance web experience with modern technologies like Next.js, Tailwind CSS, and Framer Motion.
           </p>
 
+        </div> */}
+        
+
+
+        
+        
+        <div className="mt-[90vh]">
+        <Waves/>
         </div>
+       
     </>
   );
 }
