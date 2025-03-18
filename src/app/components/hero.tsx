@@ -16,32 +16,32 @@ const Hero = () => {
   return (
     <div 
     ref={ref}
-    className='w-full h-screen overflow-hidden relative place-items-center'>
+    className='w-full h-70 overflow-hidden relative place-items-center'>
 
       <motion.img
-        src="/sunn.jpg"
+        src="/suun.png"
         alt="Sun"
         style={{ y: sunY }}
-        className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-40 h-40'
+        className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-55 h-55'
       />
       
       <motion.div
       className='absolute inset-0 z-0'
       style={{
-          backgroundImage : `url(/sky.jpg)`,
-          backgroundPosition : "center bottom 30%",
+          backgroundImage : `url(/Skye.jpg)`,
+          backgroundPosition : "center bottom 40%",
           backgroundSize : "cover"
       }}
       />
   
-  <div
+  {/* <div
       className='absolute inset-0 z-20 '
       style={{
           backgroundImage : `url(/mountains.png)`,
           backgroundPosition : "bottom",
           backgroundSize : "cover"
       }}
-      />
+      /> */}
     </div>
   )
 }
