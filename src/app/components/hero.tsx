@@ -22,7 +22,7 @@ const Hero = () => {
         src="/fsun.png"
         alt="Sun"
         style={{ y: sunY }}
-        className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-55 h-55'
+        className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-42 h-42'
       />
       
       <motion.div
