@@ -28,7 +28,7 @@ const Hero = () => {
       <motion.div
       className='absolute inset-0 z-0'
       style={{
-          backgroundImage : `url(/fbg.jpg)`,
+          backgroundImage : `url(/download.jpg)`,
           backgroundPosition : "center bottom 40%",
           backgroundSize : "cover"
       }}
