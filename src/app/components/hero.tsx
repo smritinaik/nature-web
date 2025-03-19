@@ -10,7 +10,7 @@ const Hero = () => {
         offset: ["start start", "end start"],
     });
 
-    const sunY = useTransform(scrollYProgress , [0, 1] ,["10%", "999%"]);
+    const sunY = useTransform(scrollYProgress , [0, 1] ,["10%", "990%"]);
 
 
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
         src="/fsun.png"
         alt="Sun"
         style={{ y: sunY }}
-        className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-50 h-50'
+        className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-45 h-45'
       />
       
       <motion.div
