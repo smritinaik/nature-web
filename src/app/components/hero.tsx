@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 
 const Hero = () => {
+  
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -42,6 +43,7 @@ const Hero = () => {
           backgroundSize: "cover"
         }}
       />
+      
     </div>
   )
 }
