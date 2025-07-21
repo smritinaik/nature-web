@@ -20,7 +20,7 @@ const Hero = () => {
       className='w-full h-screen overflow-hidden justify-center relative place-items-center'>
 
       <motion.img
-        src="/fsun.png"
+        src="/sun.png"
         alt="Sun"
         style={{ y: sunY }}
         className='absolute z-10 top-8 left-1/2 transform -translate-x-1/2 w-45 h-45'
@@ -29,7 +29,7 @@ const Hero = () => {
       <motion.div
         className='absolute inset-0 z-0'
         style={{
-          backgroundImage: `url(/download.jpg)`,
+          backgroundImage: `url(/bg.jpg)`,
           backgroundPosition: "center bottom 40%",
           backgroundSize: "cover"
         }}
@@ -38,7 +38,7 @@ const Hero = () => {
       <div
         className='absolute inset-0 z-20 '
         style={{
-          backgroundImage: `url(/fmountain.png)`,
+          backgroundImage: `url(/mountain.png)`,
           backgroundPosition: "bottom",
           backgroundSize: "cover"
         }}
